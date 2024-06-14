@@ -1,5 +1,0 @@
-plugin/localisation-0.1.0.umd.min.1.js
-plugin/localisation-0.1.0.umd.min.1.js.map
-plugin/localisation-0.1.0.umd.min.js
-plugin/localisation-0.1.0.umd.min.js.map
-plugin/package.json
