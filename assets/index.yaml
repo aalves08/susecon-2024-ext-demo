@@ -1,0 +1,44 @@
+apiVersion: v1
+entries:
+  kubecost:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= 1.16.0-0 < 1.29.0-0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= v2.8.4'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-06-18T09:50:09.273496318Z"
+    description: kubecost susecon demo
+    digest: 8012807510d6c79d13e0cbef1105c9dd5caf3b019d48a34d6a22b88051fa7a03
+    icon: https://raw.githubusercontent.com/aalves08/susecon-2024-ext-demo/main/pkg/kubecost/kc.svg
+    name: kubecost
+    type: application
+    urls:
+    - assets/kubecost/kubecost-0.1.0.tgz
+    version: 0.1.0
+  localisation:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= 1.16.0-0 < 1.29.0-0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= v2.8.5'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-06-18T09:50:09.273768175Z"
+    description: localisation plugin
+    digest: 3103dbee7877dccaa683a93fc801354ea49ae42a0af83b3fbc132b3735ea19a0
+    name: localisation
+    type: application
+    urls:
+    - assets/localisation/localisation-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-06-18T09:50:09.272708325Z"
